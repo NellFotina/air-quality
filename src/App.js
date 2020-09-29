@@ -3,6 +3,7 @@ import './App.scss';
 import HeroBlock from './components/HeroBlock/HeroBlock';
 import Facts from './components/Facts/Facts';
 import SectorList from './components/SectorList/SectorList';
+import AirQuality from './components/AirQuality/AirQuality';
 import Footer from './components/Footer/Footer';
 import logoShid from './assets/Section1/shid_logo.svg';
 import logoITN from './assets/Section1/ITN.svg';
@@ -97,6 +98,7 @@ function App() {
                 logos={partners}
                 links={navLinks}/>
     <Facts title="Основные факты" slides={factsSlider} />
+    <AirQuality/>   
     <SectorList title="Политика по уменьшению загрязнений"
                   subtitle="Есть много примеров успешной политики по уменьшению загрязнения воздуха в таких секторах, как транспорт, городское планирование, энергетика и промышленность:"
                   items={sectors}/>
