@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/air-quality/static/css/main.1af09b41.chunk.css",
+    "main.js": "/air-quality/static/js/main.f1713ed8.chunk.js",
+    "main.js.map": "/air-quality/static/js/main.f1713ed8.chunk.js.map",
+    "runtime-main.js": "/air-quality/static/js/runtime-main.2c0b8cd0.js",
+    "runtime-main.js.map": "/air-quality/static/js/runtime-main.2c0b8cd0.js.map",
+    "static/css/2.e0686c58.chunk.css": "/air-quality/static/css/2.e0686c58.chunk.css",
+    "static/js/2.a7c71603.chunk.js": "/air-quality/static/js/2.a7c71603.chunk.js",
+    "static/js/2.a7c71603.chunk.js.map": "/air-quality/static/js/2.a7c71603.chunk.js.map",
+    "index.html": "/air-quality/index.html",
+    "precache-manifest.041e5b273c0b2309822f0bb50ecca3cd.js": "/air-quality/precache-manifest.041e5b273c0b2309822f0bb50ecca3cd.js",
+    "service-worker.js": "/air-quality/service-worker.js",
+    "static/css/2.e0686c58.chunk.css.map": "/air-quality/static/css/2.e0686c58.chunk.css.map",
+    "static/css/main.1af09b41.chunk.css.map": "/air-quality/static/css/main.1af09b41.chunk.css.map",
+    "static/js/2.a7c71603.chunk.js.LICENSE.txt": "/air-quality/static/js/2.a7c71603.chunk.js.LICENSE.txt",
+    "static/media/1_Industry.jpg": "/air-quality/static/media/1_Industry.3d66b58c.jpg",
+    "static/media/2_Transport.jpg": "/air-quality/static/media/2_Transport.c1a646f2.jpg",
+    "static/media/3_Sity_planing.jpg": "/air-quality/static/media/3_Sity_planing.0c1cd297.jpg",
+    "static/media/4_Energy.jpg": "/air-quality/static/media/4_Energy.13a2dd74.jpg",
+    "static/media/5_Energetic.jpg": "/air-quality/static/media/5_Energetic.7e7ca063.jpg",
+    "static/media/6_Utilization.jpg": "/air-quality/static/media/6_Utilization.12a9d870.jpg",
+    "static/media/GC2.svg": "/air-quality/static/media/GC2.0662d9de.svg",
+    "static/media/ITN.svg": "/air-quality/static/media/ITN.2f311a05.svg",
+    "static/media/HeroBlock.scss": "/air-quality/static/media/bg.b236af76.jpg",
+    "static/media/shid_logo.svg": "/air-quality/static/media/shid_logo.341a487c.svg",
+    "static/media/sl1_1.jpg": "/air-quality/static/media/sl1_1.6c96001b.jpg",
+    "static/media/sl1_2.jpg": "/air-quality/static/media/sl1_2.3714e74c.jpg",
+    "static/media/sl1_3.jpg": "/air-quality/static/media/sl1_3.ac7d0551.jpg",
+    "static/media/sl2_1.jpg": "/air-quality/static/media/sl2_1.fc7b7da7.jpg",
+    "static/media/sl2_2.jpg": "/air-quality/static/media/sl2_2.fea4b06b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c0b8cd0.js",
+    "static/css/2.e0686c58.chunk.css",
+    "static/js/2.a7c71603.chunk.js",
+    "static/css/main.1af09b41.chunk.css",
+    "static/js/main.f1713ed8.chunk.js"
+  ]
+}
