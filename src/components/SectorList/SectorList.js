@@ -7,7 +7,7 @@ const SectorList = ({title, subtitle, items}) => {
 
     return (
         <section className="sectors container">
-            <h2 className="sectors-title">{title}</h2>
+            <h2 id="politics" className="sectors-title">{title}</h2>
             <p className="sectors-subtitle">{subtitle}</p>
             <div className="sectors-list">
                  {itemsList}

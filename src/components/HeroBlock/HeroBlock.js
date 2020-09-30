@@ -15,7 +15,7 @@ const HeroBlock = ({links, logos, title}) => {
             <nav className='hero-navigation'>
                 {navItems}
             </nav>
-            <h1 className='hero-title' name="hero">{title}</h1>
+            <h1 className='hero-title' id="hero">{title}</h1>
             <a href="#hero" className="hero-link">Отследить</a>
         </div>
         </section>
