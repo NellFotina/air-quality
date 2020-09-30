@@ -8,12 +8,12 @@ import Footer from './components/Footer/Footer';
 import logoShid from './assets/Section1/shid_logo.svg';
 import logoITN from './assets/Section1/ITN.svg';
 import logoGlobal from './assets/Section1/GC2.svg';
-import useScreenSize from './utils/useScreenSize';
+
 
 
 
 function App() {
-  const sizeObj = useScreenSize();
+  
   const partners = [
     logoShid,
     logoITN,
@@ -92,6 +92,7 @@ function App() {
       description: "стратегии уменьшения отходов, сортировки отходов, рециклирования, повторного использования или переработки отходов; а также улучшенные методы биологической утилизации отходов, такие как анаэробная переработка отходов для производства биогаза, являются практически осуществимыми, недорогими альтернативными вариантами открытому сжиганию твердых отходов"
     }
   ];
+
   return (
     <>
     <HeroBlock title="Качество атмосферного воздуха и здоровье"

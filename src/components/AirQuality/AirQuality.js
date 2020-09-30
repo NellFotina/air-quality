@@ -7,20 +7,21 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibmVsbHlhZm90IiwiYSI6ImNrZm82eWhrNjBobzkyem9lZ
 
 const AirQuality = () => {
     const mapContainer = useRef(null);
-    const [locationInfo, setLocationInfo] = useState({
+    const [locationInfo] = useState({
         lng: 33,
         lat: 49,
         zoom: 4.7
     });
 
     useEffect( () => {
-         const map = new mapboxgl.Map({
-         container: mapContainer.current,
-         style: 'mapbox://styles/mapbox/outdoors-v11',
-         center: [locationInfo.lng, locationInfo.lat],
-         zoom: locationInfo.zoom
-         });
-        })
+        
+         new mapboxgl.Map({
+          container: mapContainer.current,
+          style: 'mapbox://styles/mapbox/outdoors-v11',
+          center: [locationInfo.lng, locationInfo.lat],
+          zoom: locationInfo.zoom
+          });
+         })
 
     return (
         <section className={'air-q container'}>
