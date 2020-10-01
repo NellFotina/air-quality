@@ -14,7 +14,8 @@ const AirQuality = () => {
     });
 
     useEffect( () => {
-          new mapboxgl.Map({
+        // eslint-disable-next-line
+          const map = new mapboxgl.Map({
           container: mapContainer.current,
           style: 'mapbox://styles/mapbox/outdoors-v11',
           center: [locationInfo.lng, locationInfo.lat],
