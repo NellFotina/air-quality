@@ -4,6 +4,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import './AirQuality.scss';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibmVsbHlhZm90IiwiYSI6ImNrZm82eWhrNjBobzkyem9lZXRjb3ZqdTYifQ.J67NP-89bVlu-FbHC6BDjQ';
+window.URL.createObjectURL = function() {};
 
 const AirQuality = () => {
     const mapContainer = useRef(null);
